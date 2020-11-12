@@ -2,17 +2,16 @@
 <html>
 <body>
 
-<p>Click the button to display the date.</p>
+<h2>JavaScript new Date()</h2>
 
-<button onclick="displayDate()">The time is?</button>
-
-<script>
-function displayDate() {
-  document.getElementById("demo").innerHTML = Date();
-}
-</script>
+<p>Using new Date(), creates a new date object with the current date and time:</p>
 
 <p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
 
 </body>
 </html>
